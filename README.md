@@ -1,5 +1,14 @@
 # Two-Tower Recommendation Architecture: From Theory to Production
 
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
+[![XGBoost](https://img.shields.io/badge/XGBoost-LambdaMART-blue)](https://xgboost.readthedocs.io)
+[![FAISS](https://img.shields.io/badge/FAISS-Vector_Search-4285F4)](https://github.com/facebookresearch/faiss)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org)
+[![License](https://img.shields.io/badge/License-Educational-green)](LICENSE)
+
+**Keywords:** `Two-Tower Model` `Dual Encoder` `Recommendation System` `Collaborative Filtering` `ComiRec` `SASRec` `Transformer` `Capsule Network` `Multi-Interest Retrieval` `Sequential Recommendation` `FAISS` `Approximate Nearest Neighbor` `XGBoost LambdaMART` `Learning to Rank` `NDCG` `A/B Testing` `MovieLens` `Candidate Generation` `Re-Ranking` `Feature Store` `Embedding Retrieval` `Cold Start` `Production ML` `RecSys`
+
 > Developed and trained entirely on a MacBook M4 Max (64GB RAM). The compute constraint was intentional -- it forced us to make the same trade-offs a production team faces when deploying retrieval systems at scale: choosing embedding dimensions, model complexity, and index strategies that balance quality against resource budgets.
 
 ## What This Project Is
@@ -173,3 +182,18 @@ The setup script downloads the MovieLens 25M dataset (~250MB compressed, ~1GB ex
 4. **Production deployment is a solved problem at this scale.** Sub-5ms latency, 300 req/sec throughput, graceful cold-start degradation, and model routing -- all achievable on a laptop with no GPU at inference time. The architecture scales linearly with hardware.
 
 5. **A/B testing requires massive sample sizes for engagement metrics.** Power analysis shows 122K users per group to detect a 2% CTR lift. Diversity differences are detectable at 1K users because variance is lower. This explains why industry experiments run for weeks on full traffic.
+
+---
+
+## Author
+
+Built by **Nipun Batra**
+
+[![GitHub](https://img.shields.io/badge/GitHub-nbatra-181717?logo=github)](https://github.com/nbatra)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nipunbatra-0A66C2?logo=linkedin)](https://www.linkedin.com/in/nipunbatra/)
+
+---
+
+## License
+
+This project is released for educational and portfolio purposes. The MovieLens 25M dataset is provided by [GroupLens Research](https://grouplens.org/) under their own terms of use.
