@@ -7,8 +7,6 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org)
 [![License](https://img.shields.io/badge/License-Educational-green)](LICENSE)
 
-**Keywords:** `Two-Tower Model` `Dual Encoder` `Recommendation System` `Collaborative Filtering` `ComiRec` `SASRec` `Transformer` `Capsule Network` `Multi-Interest Retrieval` `Sequential Recommendation` `FAISS` `Approximate Nearest Neighbor` `XGBoost LambdaMART` `Learning to Rank` `NDCG` `A/B Testing` `MovieLens` `Candidate Generation` `Re-Ranking` `Feature Store` `Embedding Retrieval` `Cold Start` `Production ML` `RecSys`
-
 > Developed and trained entirely on a MacBook M4 Max (64GB RAM). The compute constraint was intentional -- it forced us to make the same trade-offs a production team faces when deploying retrieval systems at scale: choosing embedding dimensions, model complexity, and index strategies that balance quality against resource budgets.
 
 ## What This Project Is
@@ -211,3 +209,10 @@ Built by **Nipun Batra**
 ## License
 
 This project is released for educational and portfolio purposes. The MovieLens 25M dataset is provided by [GroupLens Research](https://grouplens.org/) under their own terms of use.
+
+<details>
+<summary>Keywords</summary>
+
+Two-Tower Model, Dual Encoder, Recommendation System, Collaborative Filtering, ComiRec, SASRec, Transformer, Capsule Network, Multi-Interest Retrieval, Sequential Recommendation, FAISS, Approximate Nearest Neighbor, XGBoost LambdaMART, Learning to Rank, NDCG, A/B Testing, MovieLens 25M, Candidate Generation, Re-Ranking, Feature Store, Embedding Retrieval, Cold Start, Production ML, RecSys, Vector Search, Content-Based Filtering, Hybrid Recommendation, User Embedding, Item Embedding, Negative Sampling, Contrastive Learning
+
+</details>
